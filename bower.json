@@ -1,0 +1,25 @@
+{
+  "name": "ngstrengthjs",
+  "version": "0.0.1",
+  "description": "A simple angular directive wrapper for Strength.js jquery library from https://github.com/aarondo/Strength.js.git",
+  "main": "dist/ngstrengthjs.js",
+  "authors": [
+    "Aaron Lumsden <aaronlumsden@me.com>"
+  ],
+  "keywords": [
+    "password",
+    "strength",
+    "indicator"
+  ],
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "angular": "~1.4.5",
+    "pass-strength": "https://github.com/aarondo/Strength.js.git"
+  }
+}
